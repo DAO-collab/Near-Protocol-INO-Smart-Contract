@@ -1,0 +1,11 @@
+[package]
+name = "ino"
+version = "1.1.0"
+authors = ["David Tanaka <realhardworkingdeveloper@gmail.com>"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "3.1.0"
